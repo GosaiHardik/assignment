@@ -30,6 +30,6 @@ test('renders a div with the "board-col" class', () => {
 
 test('renders an hr tag with the id "divider"', () => {
   render(<App />);
-  const dividerElement = document.getElementById('divider');
+  const dividerElement = document.getElementById('dividers');
   expect(dividerElement).toBeInTheDocument();
 });
